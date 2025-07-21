@@ -17,7 +17,7 @@ a {
   cursor: pointer;
 }
 
-.logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -57,6 +57,7 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
 .btm-primary:hover,
@@ -99,7 +100,7 @@ a {
 }
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffffff;
 }
 
 h3 {
@@ -115,9 +116,7 @@ h2 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.portfolio-title {
+  text-align: center;
   text-transform: capitalize;
 }
 
