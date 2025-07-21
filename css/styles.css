@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+.button {
+  cursor: pointer;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -21,6 +25,16 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.header-logo .logo-part {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .section-title {
@@ -51,14 +65,9 @@ a {
   background-color: #404bbf;
 }
 
-.header-logo .logo-part {
-  color: #2e2f42;
-}
-
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
-
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -103,10 +112,13 @@ h3 {
 
 h2 {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
+}
+
+.portfolio-title {
+  text-transform: capitalize;
 }
 
 p {
@@ -115,7 +127,6 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
