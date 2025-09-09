@@ -3,7 +3,6 @@ body {
   color: #434455;
   background-color: #fff;
 }
-
 ul,
 ol {
   list-style-type: none;
@@ -15,6 +14,23 @@ a {
 
 .button {
   cursor: pointer;
+}
+
+/* header section */
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
 
 .header-logo {
@@ -36,6 +52,8 @@ a {
   text-transform: uppercase;
   color: #2e2f42;
 }
+
+/* section-title */
 
 .section-title {
   background: #2e2f42;
@@ -66,13 +84,7 @@ a {
   background-color: #404bbf;
 }
 
-.nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+/* sections-contacts */
 
 .contacts {
   font-style: normal;
@@ -85,17 +97,6 @@ a {
   color: #434455;
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
-}
-
-.page-footer {
-  background-color: #2e2f42;
-}
-
 .team {
   background-color: #f4f4fd;
 }
@@ -104,29 +105,8 @@ a {
   background-color: #ffffff;
 }
 
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+/* section-footer */
 
-h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -146,4 +126,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.page-footer {
+  background-color: #2e2f42;
 }
